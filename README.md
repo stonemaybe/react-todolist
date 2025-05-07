@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+# React TodoList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, intuitive Todo List application built with React and TypeScript. This project allows users to manage their tasks with a simple and responsive interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add new tasks to your todo list
+- Delete completed or unwanted tasks
+- Responsive design that works on desktop and mobile devices
+- Clean Material UI interface
+- Real-time task management with React state
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React 19.1.0
+- TypeScript 4.9.5
+- Material UI 7.0.2
+- Node.js 20.1.0
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (version 16.18.126 or higher recommended)
+- npm (comes with Node.js)
 
-### `npm run build`
+### Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/react-todolist.git
+   cd react-todolist
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+### Development
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Start the development server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes, and you'll see any lint errors in the console.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Testing
 
-## Learn More
+Run the test suite:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Launches the test runner in interactive watch mode.
+
+### Building for Production
+
+Create a production build:
+
+```
+npm run build
+```
+
+Builds the app for production to the `build` folder. It optimizes the build for best performance with minified code and hashed filenames.
+
+### Advanced Configuration
+
+If you need to customize the build configuration:
+
+```
+npm run eject
+```
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!** This command will give you full control over the configuration files and dependencies.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
