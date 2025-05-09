@@ -1,0 +1,115 @@
+/* Animation keyframes for various UI elements */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation classes */
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out;
+}
+
+.animate-rotate {
+  animation: rotate 2s linear infinite;
+}
+
+/* Animation utilities */
+.animation-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+/* Animation durations */
+.animation-duration-fast {
+  animation-duration: 0.3s;
+}
+
+.animation-duration-normal {
+  animation-duration: 0.5s;
+}
+
+.animation-duration-slow {
+  animation-duration: 1s;
+}
+
+/* Animation timing functions */
+.animation-ease {
+  animation-timing-function: ease;
+}
+
+.animation-ease-in {
+  animation-timing-function: ease-in;
+}
+
+.animation-ease-out {
+  animation-timing-function: ease-out;
+}
+
+.animation-ease-in-out {
+  animation-timing-function: ease-in-out;
+}
+
+/* Animation fill modes */
+.animation-forwards {
+  animation-fill-mode: forwards;
+}
+
+.animation-backwards {
+  animation-fill-mode: backwards;
+}
+
+.animation-both {
+  animation-fill-mode: both;
+} 
